@@ -21,11 +21,11 @@ HEADERS = {
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
 }
 
-FILEPATH_TITLES_CSV     = 'titles.csv'
-FILEPATH_REFERENCES_CSV = 'references.csv'
-FILEPATH_EDGES_RAW_CSV  = 'edges_raw.csv'
-FILEPATH_EDGES_CSV      = 'edges.csv'
-FILEPATH_VERTICES_CSV   = 'vertices.csv'
+FILEPATH_TITLES_CSV     = 'file:///home/darius_stefan_iavorschi/final_proj/titles.csv'
+FILEPATH_REFERENCES_CSV = 'file:///home/darius_stefan_iavorschi/final_proj/references.csv'
+FILEPATH_EDGES_RAW_CSV  = 'file:///home/darius_stefan_iavorschi/final_proj/edges_raw.csv'
+FILEPATH_EDGES_CSV      = 'file:///home/darius_stefan_iavorschi/final_proj/edges.csv'
+FILEPATH_VERTICES_CSV   = 'file:///home/darius_stefan_iavorschi/final_proj/vertices.csv'
 
 spark = SparkSession.builder \
     .appName("YourAppName") \
