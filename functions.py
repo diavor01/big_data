@@ -28,7 +28,8 @@ FILEPATH_EDGES_CSV      = 'edges.csv'
 FILEPATH_VERTICES_CSV   = 'vertices.csv'
 
 spark = SparkSession.builder \
-    .appName("PowerIterationClustering") \
+    .appName("YourAppName") \
+    .config("spark.eventLog.enabled", "false") \
     .getOrCreate()
 
 def hash_func(x):
